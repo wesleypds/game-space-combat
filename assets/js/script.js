@@ -26,9 +26,9 @@ function start() {
 	var inimigo2 = $("#inimigo2");
 	var inimigo3 = $("#inimigo3");
 
-    var velInimigo1 = parseInt(Math.random() * (7-2) + 2);
-	var velInimigo2 = parseInt(Math.random() * (7-2) + 2);
-	var velInimigo3 = parseInt(Math.random() * (7-2) + 2);
+    var velInimigo1 = parseInt(Math.random() * (10-2) + 2);
+	var velInimigo2 = parseInt(Math.random() * (10-2) + 2);
+	var velInimigo3 = parseInt(Math.random() * (10-2) + 2);
 	
 	var podeAtirar = true;
     var pontos = 0;
@@ -152,19 +152,19 @@ function start() {
     function realocarInimigo1() {
         inimigo1.css("left",1150);
         inimigo1.css("top",66);
-        velInimigo1 = parseInt(Math.random() * (7-2) + 2);
+        velInimigo1 = parseInt(Math.random() * (10-2) + 2);
     }
 
     function realocarInimigo2() {
         inimigo2.css("left",1150);
         inimigo2.css("top",327);
-        velInimigo2 = parseInt(Math.random() * (7-2) + 2);
+        velInimigo2 = parseInt(Math.random() * (10-2) + 2);
     }
 
     function realocarInimigo3() {
         inimigo3.css("left",1150);
         inimigo3.css("top",588);
-        velInimigo3 = parseInt(Math.random() * (7-2) + 2);
+        velInimigo3 = parseInt(Math.random() * (10-2) + 2);
     }
 
     function explosao1(inimigo1X,inimigo1Y) {
