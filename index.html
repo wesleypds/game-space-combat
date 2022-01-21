@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<title>Space Combat</title>
+
+</head>
+<body>
+
+	<div id="container" class="container-fluid">
+
+		<div id="fundoDoJogo">
+
+			<div id="menuInicial" onclick="start()">
+
+				<h1>Space Combat</h1>
+				<p>Para mover a nave pressione W e S.
+				Para atira pressione D.
+				Você terá 3 chances e para cada colisão irá perder 1 energia.
+				Irá ser descontado 100 pontos para cada inimigo que passar de você.</p>
+				<p>Clique aqui para começar!!!</p>
+				
+			</div>
+
+		</div>
+
+	</div>
+
+	<audio src="assets/sons/som.mp3" preload="auto" id="somDisparo"></audio>
+    <audio src="assets/sons/explosao.mp3" preload="auto" id="somExplosao"></audio>
+    <audio src="assets/sons/musica_fundo.mp3" preload="auto" id="musica"></audio>
+    <audio src="assets/sons/gameover.mp3" preload="auto" id="somGameover"></audio>	
+    <audio src="assets/sons/resgate.mp3" preload="auto" id="somResgate"></audio>
+
+	<script type="text/javascript" src="assets/js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery-collision.min.js"></script>
+    <script type="text/javascript" src="assets/js/script.js"></script>
+
+</body>
+</html>
